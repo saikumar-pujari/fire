@@ -1,0 +1,437 @@
+[
+  {
+    "Model": "Random Forest",
+    "Train Time (s)": 1.31,
+    "Val Accuracy (%)": 76.86,
+    "Test Accuracy (%)": 78.65,
+    "Test Precision": 0.786,
+    "Test Recall": 0.7865,
+    "Test F1-Score": 0.7859,
+    "Confusion Matrix": [
+      [
+        268,
+        51,
+        30
+      ],
+      [
+        49,
+        258,
+        43
+      ],
+      [
+        18,
+        33,
+        299
+      ]
+    ]
+  },
+  {
+    "Model": "Extra Trees",
+    "Train Time (s)": 0.6,
+    "Val Accuracy (%)": 78.95,
+    "Test Accuracy (%)": 77.98,
+    "Test Precision": 0.7801,
+    "Test Recall": 0.7798,
+    "Test F1-Score": 0.7795,
+    "Confusion Matrix": [
+      [
+        258,
+        62,
+        29
+      ],
+      [
+        51,
+        263,
+        36
+      ],
+      [
+        17,
+        36,
+        297
+      ]
+    ]
+  },
+  {
+    "Model": "Hist Gradient Boosting",
+    "Train Time (s)": 28.39,
+    "Val Accuracy (%)": 81.24,
+    "Test Accuracy (%)": 82.08,
+    "Test Precision": 0.8212,
+    "Test Recall": 0.8208,
+    "Test F1-Score": 0.8206,
+    "Confusion Matrix": [
+      [
+        272,
+        54,
+        23
+      ],
+      [
+        49,
+        277,
+        24
+      ],
+      [
+        7,
+        31,
+        312
+      ]
+    ]
+  },
+  {
+    "Model": "AdaBoost",
+    "Train Time (s)": 18.03,
+    "Val Accuracy (%)": 67.81,
+    "Test Accuracy (%)": 68.73,
+    "Test Precision": 0.6928,
+    "Test Recall": 0.6873,
+    "Test F1-Score": 0.6886,
+    "Confusion Matrix": [
+      [
+        248,
+        72,
+        29
+      ],
+      [
+        54,
+        241,
+        55
+      ],
+      [
+        35,
+        83,
+        232
+      ]
+    ]
+  },
+  {
+    "Model": "Support Vector Machine (RBF)",
+    "Train Time (s)": 3.67,
+    "Val Accuracy (%)": 76.86,
+    "Test Accuracy (%)": 77.69,
+    "Test Precision": 0.7809,
+    "Test Recall": 0.7769,
+    "Test F1-Score": 0.778,
+    "Confusion Matrix": [
+      [
+        264,
+        66,
+        19
+      ],
+      [
+        49,
+        268,
+        33
+      ],
+      [
+        17,
+        50,
+        283
+      ]
+    ]
+  },
+  {
+    "Model": "Linear SVM",
+    "Train Time (s)": 16.56,
+    "Val Accuracy (%)": 68.86,
+    "Test Accuracy (%)": 68.64,
+    "Test Precision": 0.6873,
+    "Test Recall": 0.6864,
+    "Test F1-Score": 0.6868,
+    "Confusion Matrix": [
+      [
+        257,
+        69,
+        23
+      ],
+      [
+        69,
+        212,
+        69
+      ],
+      [
+        23,
+        76,
+        251
+      ]
+    ]
+  },
+  {
+    "Model": "Logistic Regression",
+    "Train Time (s)": 7.71,
+    "Val Accuracy (%)": 70.19,
+    "Test Accuracy (%)": 70.26,
+    "Test Precision": 0.7055,
+    "Test Recall": 0.7026,
+    "Test F1-Score": 0.7038,
+    "Confusion Matrix": [
+      [
+        258,
+        71,
+        20
+      ],
+      [
+        65,
+        221,
+        64
+      ],
+      [
+        15,
+        77,
+        258
+      ]
+    ]
+  },
+  {
+    "Model": "K-Nearest Neighbors (KNN)",
+    "Train Time (s)": 0.0,
+    "Val Accuracy (%)": 70.0,
+    "Test Accuracy (%)": 70.64,
+    "Test Precision": 0.7037,
+    "Test Recall": 0.7064,
+    "Test F1-Score": 0.7026,
+    "Confusion Matrix": [
+      [
+        258,
+        56,
+        35
+      ],
+      [
+        79,
+        198,
+        73
+      ],
+      [
+        24,
+        41,
+        285
+      ]
+    ]
+  },
+  {
+    "Model": "Decision Tree",
+    "Train Time (s)": 4.36,
+    "Val Accuracy (%)": 67.14,
+    "Test Accuracy (%)": 65.68,
+    "Test Precision": 0.6562,
+    "Test Recall": 0.6568,
+    "Test F1-Score": 0.6561,
+    "Confusion Matrix": [
+      [
+        243,
+        51,
+        55
+      ],
+      [
+        71,
+        205,
+        74
+      ],
+      [
+        38,
+        71,
+        241
+      ]
+    ]
+  },
+  {
+    "Model": "Multi-Layer Perceptron (MLP)",
+    "Train Time (s)": 37.23,
+    "Val Accuracy (%)": 76.19,
+    "Test Accuracy (%)": 74.93,
+    "Test Precision": 0.7499,
+    "Test Recall": 0.7493,
+    "Test F1-Score": 0.7495,
+    "Confusion Matrix": [
+      [
+        257,
+        66,
+        26
+      ],
+      [
+        65,
+        244,
+        41
+      ],
+      [
+        16,
+        49,
+        285
+      ]
+    ]
+  },
+  {
+    "Model": "Gaussian Naive Bayes",
+    "Train Time (s)": 0.05,
+    "Val Accuracy (%)": 61.14,
+    "Test Accuracy (%)": 62.25,
+    "Test Precision": 0.6268,
+    "Test Recall": 0.6225,
+    "Test F1-Score": 0.6196,
+    "Confusion Matrix": [
+      [
+        259,
+        65,
+        25
+      ],
+      [
+        75,
+        212,
+        63
+      ],
+      [
+        80,
+        88,
+        182
+      ]
+    ]
+  },
+  {
+    "Model": "ResNet-50",
+    "Train Time (s)": 47.45,
+    "Val Accuracy (%)": 94.38,
+    "Test Accuracy (%)": 90.62,
+    "Test Precision": 1.0,
+    "Test Recall": 0.9062,
+    "Test F1-Score": 0.9508,
+    "Confusion Matrix": [
+      [
+        725,
+        24,
+        51
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "Model": "ResNet-101",
+    "Train Time (s)": 80.95,
+    "Val Accuracy (%)": 92.92,
+    "Test Accuracy (%)": 91.5,
+    "Test Precision": 1.0,
+    "Test Recall": 0.915,
+    "Test F1-Score": 0.9556,
+    "Confusion Matrix": [
+      [
+        732,
+        35,
+        33
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "Model": "VGG-16",
+    "Train Time (s)": 74.24,
+    "Val Accuracy (%)": 71.46,
+    "Test Accuracy (%)": 69.62,
+    "Test Precision": 1.0,
+    "Test Recall": 0.6963,
+    "Test F1-Score": 0.8209,
+    "Confusion Matrix": [
+      [
+        557,
+        56,
+        187
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "Model": "VGG-19",
+    "Train Time (s)": 92.82,
+    "Val Accuracy (%)": 81.46,
+    "Test Accuracy (%)": 80.5,
+    "Test Precision": 1.0,
+    "Test Recall": 0.805,
+    "Test F1-Score": 0.892,
+    "Confusion Matrix": [
+      [
+        644,
+        72,
+        84
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "Model": "Inception-V3",
+    "Train Time (s)": 46.06,
+    "Val Accuracy (%)": 76.46,
+    "Test Accuracy (%)": 73.25,
+    "Test Precision": 1.0,
+    "Test Recall": 0.7325,
+    "Test F1-Score": 0.8456,
+    "Confusion Matrix": [
+      [
+        586,
+        1,
+        213
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "Model": "Swin Transformer / ViT",
+    "Train Time (s)": 30.35,
+    "Val Accuracy (%)": 16.25,
+    "Test Accuracy (%)": 22.38,
+    "Test Precision": 1.0,
+    "Test Recall": 0.2238,
+    "Test F1-Score": 0.3657,
+    "Confusion Matrix": [
+      [
+        179,
+        621
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  }
+]

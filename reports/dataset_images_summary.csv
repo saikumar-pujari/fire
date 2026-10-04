@@ -1,0 +1,5 @@
+Split,Fire Images,Smoke Images,Non_Fire Images,High_Risk_Vegetation Images,Total Images in Split,Percentage of Dataset (%)
+Train,19455,1855,17971,210,39491,71.56
+Val,2612,397,2209,44,5262,9.53
+Test,5220,398,4771,45,10434,18.91
+Total Dataset,27287,2650,24951,299,55187,100.0

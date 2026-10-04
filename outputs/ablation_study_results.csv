@@ -1,0 +1,5 @@
+Ablation_Factor,Accuracy,Macro_F1,Latency_ms
+Augmentation: Heavy_Aug (CutMix/MixUp/Rotate),1.0,1.0,23.792252000421286
+Augmentation: Basic_Aug (Flips_Only),1.0,1.0,24.145873999223113
+Resolution: Resolution_224x224,0.9642857142857143,0.9641025641025642,23.93755799974315
+Resolution: Resolution_384x384,0.5,0.375,24.814522000961006

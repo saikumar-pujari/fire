@@ -1,0 +1,7 @@
+Dataset Source,Source URL,Raw Images Count,Target Classes,Integration Method
+Kaggle: Forest Fire Images,https://www.kaggle.com/datasets/mohnishsaiprasad/forest-fire-images,5050,"Fire, Non_Fire, Smoke",kagglehub API download & deduplication
+Kaggle: Forest Fire Dataset,https://www.kaggle.com/datasets/alik05/forest-fire-dataset,1900,"Fire, Smoke, Non_Fire",kagglehub API download & deduplication
+Mendeley Data: Fire Dataset,https://data.mendeley.com/datasets/fcsjwd9gr6/1,999,"Fire, Smoke",Direct download & extraction
+Roboflow: Satellite Wildfire Detection,https://universe.roboflow.com/htw-berlin-xv7eo/satellite-wildfire-detection,1500,"Wildfire, Smoke, Landscape",Unified satellite multispectral imagery
+Kaggle: Forest Fire C4,https://www.kaggle.com/datasets/obulisainaren/forest-fire-c4,4823,"Fire, Non-Fire, Smoke, Vegetation",kagglehub API download & deduplication
+Local Pre-existing Benchmarks,Local Benchmark Data Storage,40915,"Fire, Non_Fire, Smoke, Vegetation",Deduplicated MD5 aggregation into unified splits
